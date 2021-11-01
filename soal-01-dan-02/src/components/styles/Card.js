@@ -13,7 +13,8 @@ export const CardContainer = styled.div`
 
 export const CardImage = styled.img`
   width: 100%;
-  height: 400px;
+  height: 30rem;
+  background-size: ;
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
 `;
@@ -28,13 +29,16 @@ export const CardPrice = styled.h5`
   font-weight: 600;
   margin: 0;
   margin-bottom: 0.5em;
+  text-align: center;
 `;
 
 export const CardProductName = styled.h6`
   font-family: sans-serif;
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-weight: 600;
   margin: 0;
   margin-bottom: 0.5em;
   color: gray;
+  text-align: center;
+  padding-bottom: 1em;
 `;

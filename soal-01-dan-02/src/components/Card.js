@@ -2,8 +2,6 @@ import {
     CardContainer,
     CardImage,
     CardBody,
-    CardTitle,
-    CardText,
     CardPrice,
     CardProductName
   } from "./styles/Card";

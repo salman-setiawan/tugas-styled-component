@@ -24,7 +24,7 @@ const products = [
 
 export default function App() {
   return (
-    <FlexContainer align = "left"> 
+    <FlexContainer> 
       {products.map((product, index) => (
         <Card
           key={`product-${index}`}
